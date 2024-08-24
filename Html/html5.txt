@@ -1,0 +1,122 @@
+1. Are the HTML Tags and Elements the Same Thing?
+Ans:  No, HTML tags and elements are not the same things
+      (1) Tag has no content
+      (2) Element has content
+
+2. What Are Tags and Attributes in HTML?
+Ans:  (1)Tag:-> <h1></h1>
+      (2)Attributes:- <img src="paris.jpg" alt="Paris" class="center">
+
+3. What Are Void Elements in HTML?
+Ans:  <img>,<br>, <hr> , <meta>
+
+4. What Are HTML Entities?
+Ans:  &lt; , &gt; , &amp; , &quot; , &nbsp;
+
+5. What Are Different Types of Lists in HTML?
+Ans: 1 <ol>
+        <li>First item</li>
+        <li>Second item</li>
+      </ol>
+
+     2 <ul>
+        <li>First item</li>
+        <li>Second item</li>
+      </ul>
+
+     3<dl>
+       <dt>HTML</dt>
+       <dd>hello world</dd>
+       <dt>CSS</dt>
+       <dd>A style sheet </dd>
+     </dl>
+
+6. What Is the ‘class’ Attribute in HTML?
+Ans:   It is commonly used for styling purposes with CSS or for scripting with JavaScript.
+
+7. What Is the Difference Between the ‘id’ Attribute and the ‘class’ Attribute of HTML Elements?
+Ans: 1. id Attribute: Used to uniquely identify a single element on a page. The id value must be unique within the HTML document.
+     2. class Attribute: Used to assign one or more classes to multiple elements. Multiple elements can share the same class name.
+
+8. What Are the Various Formatting Tags in HTML?
+Ans:  1. <b>: Bold text.
+      2. <strong>: Strong importance, typically bold text.
+      3. <i>: Italic text.
+      4. <em>: Emphasized text, typically italic.
+      5. <u>: Underlined text.
+      6. <small>: Smaller text.
+      7. <mark>: Highlighted text.
+      8. <sub>: Subscript text.
+      9. <sup>: Superscript text.
+      10. <del>: Strikethrough text.
+      11. <ins>: Inserted text, typically underlined.
+
+9. How Is Cell Padding Different from Cell Spacing?
+Ans:  <table cellpadding="10" cellspacing="5">
+        <tr>
+         <td>Cell 1</td>
+         <td>Cell 2</td>
+        </tr>
+      </table>
+
+10. How Can We Club Two or More Rows or Columns into a Single Row or Column in an HTML Table?
+Ans:  <td colspan="2">Merged cell</td>
+      <td rowspan="2">Merged cell</td>
+
+11. What Is the Difference Between a Block-Level Element and an Inline Element?
+Ans:  1. Block-Level Element: Takes up the full width available and starts on a new line.
+           Examples include <div>, <p>, <h1>, <ul>, and <table>.
+
+      2. Inline Element: Only takes up as much width as necessary and does not start on a new line.
+           Examples include <span>, <a>, <img>, <strong>, and <em>.
+
+12. How to Create a Hyperlink in HTML?
+Ans:  <a href="https://example.com">Click here to visit Example.com</a>
+
+13. What Is the Use of an iframe Tag?
+Ans:  The <iframe> tag is used to embed another HTML page within the current page.
+
+14. What Is the Use of a span Tag? Explain with an Example?
+Ans:  The <span> tag is an inline container used to group text or elements for styling purposes.
+      It does not inherently carry any semantic meaning.
+
+15. How to Insert a Picture into a Background Image of a Web Page?
+Ans: <body style="background-image: url('background.jpg');">
+
+     css:  body {
+              background-image: url('background.jpg');
+               }
+
+16. How Are Active Links Different from Normal Links?
+Ans:  1. Normal Links: Links that have not been clicked by the user. Typically displayed in blue by default.
+      2. Active Links: Links that are currently being clicked or are in focus. They are often styled differently 
+                       (e.g., changing color) to indicate their active state.
+
+17. What Are the Different Tags to Separate Sections of Text?
+Ans: 1. <div>: Used to group block-level content.
+     2. <p>: Defines a paragraph.
+     3. <hr>: Inserts a horizontal line (thematic break).
+     4. <br>: Inserts a line break.
+     5. <section>: Defines a section in a document.
+     6. <article>: Defines an independent, self-contained content.
+     7. <header>, <footer>, <aside>: Defines different parts of the document structure.
+
+18. What Is SVG?
+Ans: SVG (Scalable Vector Graphics) is an XML-based format for creating two-dimensional vector images.
+     It allows for scalable, high-quality graphics that do not lose clarity when resized.
+
+19. What Is the Difference Between HTML and XHTML?
+Ans:  1. HTML (HyperText Markup Language): The standard markup language for creating web pages. It is more lenient with syntax rules.
+      2. XHTML (eXtensible HyperText Markup Language): A stricter, XML-based version of HTML. It enforces strict syntax rules
+
+20. What Are Logical and Physical Tags in HTML?
+Ans:  1. Logical Tags: Describe the content and its structure. They do not define the appearance but rather the role of the 
+         content.
+         examples  include     <em>,  <strong>, <cite>, <abbr>, <code>.
+
+      2.Physical Tags: Directly affect the appearance of the content. They define how the text should look.
+         Examples include <b> (bold),    <i> (italic), <u> (underline), <sub> (subscript), <sup> (superscript). However,
+              with the separation of content and style in modern web development, logical tags are preferred over physical tags.
+
+
+
